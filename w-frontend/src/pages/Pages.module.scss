@@ -1,0 +1,53 @@
+@import 'src/assets/styles/variables';
+
+.homePage {
+    width: $mobile;
+    background-image: url('/src/assets/images/mainBackground.png');
+    margin: 20px auto 0;
+    border-radius: 8px;
+    height: 910px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid $brown;
+}
+
+.authPage {
+    width: $mobile;
+    margin: 20px auto 0;
+    height: 910px;
+    border-radius: 8px;
+    border: 2px solid $brown;
+}
+
+.profilePage {
+    width: $mobile;
+    margin: 20px auto 0;
+    height: 910px;
+    border-radius: 8px;
+    border: 2px solid $brown;
+}
+
+.newWorkoutPage {
+    width: $mobile;
+    margin: 20px auto 0;
+    height: 910px;
+    border-radius: 8px;
+    border: 2px solid $brown;
+}
+
+.newExercisePage {
+    width: $mobile;
+    margin: 20px auto 0;
+    height: 910px;
+    border-radius: 8px;
+    border: 2px solid $brown;
+}
+
+.notFoundPage {
+    width: $mobile;
+    margin: 20px auto 0;
+    height: 910px;
+    border-radius: 8px;
+    border: 2px solid $brown;
+}
