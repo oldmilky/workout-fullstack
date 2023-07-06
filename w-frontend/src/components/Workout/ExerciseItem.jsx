@@ -8,7 +8,11 @@ function ExerciseItem({ exerciseLog }) {
   return (
     <div className={s.workoutItem}>
       <button
-        className={s.workoutItemButton}
+        className={
+          exerciseLog.isCompleted
+            ? s.workoutItemButtonActive
+            : s.workoutItemButton
+        }
         onClick={() => navigate(`/exercise/${exerciseLog.id}`)}
       >
         <span className={s.span}>{exerciseLog.exercise.name}</span>
@@ -29,6 +33,7 @@ ExerciseItem.propTypes = {
       name: PropTypes.string.isRequired,
       iconPath: PropTypes.string.isRequired,
     }).isRequired,
+    isCompleted: PropTypes.bool.isRequired,
   }).isRequired,
 };
 

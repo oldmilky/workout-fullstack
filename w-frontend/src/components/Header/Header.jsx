@@ -62,6 +62,7 @@ Header.propTypes = {
   heading: PropTypes.string,
   image: PropTypes.string,
   backLink: PropTypes.string,
+  icon: PropTypes.string,
 };
 
 export default Header;

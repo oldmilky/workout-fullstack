@@ -1,5 +1,5 @@
 // import Exercise from "../components/Exercise/Exercise";
-import ExerciseLog from "../components/exercise-log/ExerciseLog";
+import ExerciseLog from "../components/ExerciseLog/ExerciseLog";
 import s from "./Pages.module.scss";
 
 function ExercisePage() {

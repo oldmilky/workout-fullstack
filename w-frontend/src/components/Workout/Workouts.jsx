@@ -28,7 +28,7 @@ function Workouts() {
       {isLoading ? (
         <Loader />
       ) : (
-        <div className={s.container}>
+        <div className={s.wrap}>
           {data?.map(workout => (
             <WorkoutItem key={workout.id} workout={workout} mutate={mutate} />
           ))}
